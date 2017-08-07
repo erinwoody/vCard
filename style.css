@@ -2,6 +2,8 @@
      height: 458px;
      width: 1116px;
      background-color: blue;
+     display: flex;
+     flex-wrap: wrap;
  }
 
 
@@ -17,6 +19,7 @@
     position: relative;
     padding: 8px 8px 32px 8px;
     background: hotpink;
+    color: white;
 } 
 
 .title:after {
@@ -33,3 +36,26 @@
     height: 32px;
 }
 
+.img-circle {
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.basics {
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    height: 314px;
+    width: 415px;
+    justify-content: center;
+}
+
+.story {
+    background-color: lightseagreen;
+    display: flex;
+    height: 314px;
+    width: 701px;
+    justify-content: center;
+    flex-direction: right;
+}
