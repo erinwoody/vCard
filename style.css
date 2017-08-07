@@ -1,29 +1,46 @@
- .section {
-     height: 458px;
-     width: 1116px;
-     background-color: blue;
-     display: flex;
-     flex-wrap: wrap;
- }
+.body {
+    height: 460px;
+    width: 1105px;
+}
 
 
+.section {
+    font-family: 'Rokkitt', serif;
+    background-color: #f3f3f3;
+    padding: 5%;
+}
+
+
+.basics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 
 .title {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;  
-    height: 104px;
-    width: 1100px;
-    justify-content: center;
-    font-size: 30px;
     position: relative;
-    padding: 8px 8px 32px 8px;
-    background: hotpink;
-    color: white;
-} 
+    padding: 8px 8px 50px 8px;
+    background: black;
+    height: 90px;
+    font-size: 30px;
+    font-weight: normal;
+}
 
+.story{
+    width: 500px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+h2, h3 {
+    font-size: 40px;
+}
 .title:after {
-    background: linear-gradient(-45deg, black 16px, transparent 0), linear-gradient(45deg, black 16px, transparent 0);
+    background: linear-gradient(-45deg, #f3f3f3 16px, transparent 0), linear-gradient(45deg, #f3f3f3 16px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
     background-size: 32px 32px;
@@ -36,26 +53,41 @@
     height: 32px;
 }
 
-.img-circle {
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+img {
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
-    display: flex;
+}
+
+.greenFont {
+    color: #83aaab;
+}
+
+a:link {
+    color: #272b30;
+}
+
+a:visited {
+    color: #272b30;
+}
+
+a:hover {
+    color: #272b30;
+    ;
+}
+
+a:active {
+    color: #272b30;
+}
+
+.line {
+    border-left: 2px solid lightgray;
+    padding: 20px;
+    height: 100px;
     
-}
-
-.basics {
-    background-color: lightcoral;
-    color: white;
-    display: flex;
-    height: 314px;
-    width: 415px;
-    justify-content: center;
-}
-
-.story {
-    background-color: lightseagreen;
-    display: flex;
-    height: 314px;
-    width: 701px;
-    justify-content: center;
-    flex-direction: right;
 }
