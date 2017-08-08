@@ -24,7 +24,7 @@ function reqListener() {
                 <p><span class="greenFont">Github URL:</span> <a href=${data.html_url}>${data.login}</a></p>
                 <p><span class="greenFont">Email:</span> ${data.email}</p>
                 <p><span class="greenFont">Company:</span> ${data.company}</p>
-                <p><span class="greenFont">Website:</span> ${data.url} </p>
+                <p><span class="greenFont">Website:</span><a href= ${data.url}>${data.url}</a></p>
             </div>
       
 
